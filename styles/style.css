@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+ul{
+    list-style: none;
+}
+/*header style*/
+header{
+    position: sticky;
+    display: flex;
+    height: 16vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: #232C50;
+}
+header a img{
+    margin-left: 50px;
+}
+header ul li{
+    position: relative;
+    margin: auto 4px auto 10px;
+}
+header button{
+    position: relative;
+    right: 50%;
+    margin: 50px;
+    width: 7vw;
+    height: 6vh;
+    border-color: #8B48BF;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(246, 12, 12);
+}
+
+
+button p{
+    color: #ffff;
+
+}
+
+div.burguer{
+    display: none;
+}
+/*aca termina el header*/
+
+
+/*section class="img--container" y div class="live-mexico"*/
+
+section.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8%;
+}
+h1{
+    color: #232C50;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 140%;
+    width: 650px;
+    padding-left: 110px;
+    text-align: right;
+    margin-left: 12%;
+    font-weight: 600;
+}
+div.live-mexico{
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+}
+div.live-mexico button{
+    margin: 50px;
+    width: 7vw;
+    height: 6vh;
+    border-color: #8B48BF;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    margin-left: 80%;
+    margin-top: 12%;
+    outline: none;
+}
+p.div-mex{
+    width: 80%;
+    text-align: right;
+    margin-left: 15%;
+    color: #000000;
+}
+
+/*aca termina*/
+
+/*div class="pros"*/
+
+div.pros{
+    display: flex;
+    background-color: #8B48BF;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+div.pros h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: #ffff;
+}
+div.pros p{
+    color: #ffff;
+    width: 35%;
+    padding-left: 10%;
+}
+/*aca termina*/
+
+/*div class="number-container*/
+div.number-container{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 4.3%;
+    margin-bottom: 2%;
+    justify-content: center;
+}
+div.number-title-container{
+    display: flex;
+    width: 300px;
+}
+div.number{
+    margin: 5% 3% 3%;
+}
+p.item{
+    background-color: #8B48BF;
+    margin-right: 30px;
+}
+div.number-title-container p{
+    height: 30px;
+    width: 65px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 5px;
+    color: #ffff;
+}
+div.number-title-container h2{
+    color: #323851;
+    font-size: 16px;
+    text-align: center;
+}
+div.description{
+    width: 500px;
+    color: #B3B2B7;
+    margin-top: 3%;
+}
+/*aca termino*/
+
+/*section class="players-container"*/
+
+section.players-container{
+    margin-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 15%;
+    height: 35%;
+    margin: 10% auto 8%;
+}
+section.players-container h2{
+    text-align: center;
+    font-size: 39px;
+    color: #232C50;
+    margin-top: 4%;
+}
+div.cards-container{
+    display: flex;
+    background: #FAFAFA;
+
+}
+div.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.card p{
+    text-align: center;
+    color: #B9B9C1;
+    width: 80%;
+    font-weight: 500;
+    margin-top: 4%;
+    line-height: 130%;
+}
+.players-container button{
+    margin-left: 47%;
+    margin-top: 5%;
+    background: #8B48BF;
+    border-color: #8B48BF;
+    border-radius: 50px;
+    width: 7vw;
+    height: 6vh;
+    color: #FFFFFF;
+    outline: none;
+}
+
+/*aca termino*/
+
+/*div class="pre-footer"*/
+
+div.pre-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #8B48BF;
+    padding: 3%;
+}
+.pre-footer h2{
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 30%;
+}
+.pre-footer button{
+    position: relative;
+    top: 25%;
+    right: 45%;
+    font-size: 13.20px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    border-color: #FFFFFF;
+    width: 7vw;
+    height: 6vh;
+    outline: none;
+}
+.pre-footer button p{
+    color: #8B48BF
+}
+/*aca termino*/
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: #1E1E26;
+    color: #FFFFFF;
+    height: 30vh;
+    margin-bottom: 0;
+}
+.redes-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.logo2 img{
+    margin-top: 40%;
+    margin-left: 35%;
+}
+.redes{
+    display: flex;
+    gap: 10%;
+    margin-top: 45%;
+    margin-left: 20%;
+}
+.list1-2{
+    display: flex;
+    margin-top: 3%;
+    width: 25%;
+    justify-content: space-between;
+}
+.list-container{
+    margin-top: 3%;
+    line-height: 200%;
+    font-size: 18px;
+}
+.list2-container{
+    margin-top: 3%;
+    line-height: 200%;
+    font-size: 18px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 200%;
+}
+form{
+    display: flex;
+    padding-top: 13%;
+    gap: 5%;
+}
+form button.go-button{
+    font-size: 13.20px;
+    color: #FFFFFF;
+    background-color:#8B48BF;
+    border-radius: 30px;
+    border-color: #8B48BF;
+    width:5vw;
+    height:6vh;
+    outline: none;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    align-content: center;
+    color: #A0A0A0;
+    width: 15vw;
+}
+.copyright{
+    color: #8C8C94;
+
+}.copyright2{
+    display: none;
+    color: #8C8C94;
+}
+
+/*aca termina el footer*/
+
+@media (max-width:1440px){
+    header nav, header button {
+        display: none;
+    }
+    div.burguer{
+        display: block;
+    }
+
+    section.img-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img-container img{
+        width: 100%;
+        height: 100%;
+    }
+    div.live-mexico{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .live-mexico h1{
+        line-height: auto;
+        width: 100%;
+        padding-left: 0;
+        margin-right: 18%;
+    }
+    div.live-mexico button{
+        width: 30%;
+        margin-top: 20%;
+        margin-right: 20%;
+    }
+    div.pros{
+        background:#3CDDF3;
+        display: flex;
+        flex-direction: column;
+    }
+    div.pros p{
+        margin-left: auto;
+        margin-top: 10%;
+        padding-left: normal;
+        width: fit-content
+    }
+    .cards-container > :nth-child(2), .cards-container > :nth-child(3){
+        display: none;
+        }
+    div.number-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    div.number-title-container{
+        display: flex;
+        align-items: center;
+    }
+
+    div.description{
+        width: 100%;
+    }
+    div.description p{
+        margin-top: 10%;
+    }
+    div.number-title-container{
+        background:rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        width: 100%;
+    }
+    .players-container button{
+        width: 30%;
+        margin-left: 35%;
+    }
+    div.pre-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #3CDDF3;
+    }
+    div.pre-footer h2{
+        width: 80%;
+        text-align: center;
+        margin-bottom: 13%;
+    }
+    div.pre-footer button{
+        position: relative;
+        right: 80%;
+        color: #FFFFFF;
+        width: 260%;
+        background: #232C50;
+        border-color: #232C50;
+    }
+    div.pre-footer button p{
+        padding-right: 10%;
+        width: 110%;
+        color: #FFFFFF;
+    }
+    footer{
+        height: 0%;
+        margin-bottom: 0;
+        display:flex;
+        flex-flow: wrap-reverse;
+        flex-direction: row-reverse;
+    }
+    div.redes-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 10%;
+    }
+    div.redes{
+        gap: 15%;
+        margin-left: 10%;
+    }
+    div.list1-2{
+        justify-content: center;
+        gap: 120%;
+        margin-top: 10%;
+    }
+    div.list-container, div.list2-container{
+        line-height:300% ;
+    }
+
+    div.logo2{
+        margin-top: 0%;
+    }
+    div.information{
+        width: 80%;
+    }
+    form input{
+        width: 60vw;
+    }
+    form button.go-button{
+        width: 15vw;
+    }
+    .copyright{
+        display: none;
+    }
+    .copyright2{
+        display: block;
+        margin-block-start: auto;
+        margin-bottom: 7%;
+    }
+
+}
